@@ -17,10 +17,14 @@ This project assemble machines using worker threads (Executorservice) and suppor
 #Section 3
 
 a)          Sonar lint / EclEmma scan Snapshot
+https://github.com/subharaj01/productassembly_reis/blob/master/images_snapshot/sonarlint_snapshot.PNG
 
 b)          Final Output Snapshot
+https://github.com/subharaj01/productassembly_reis/blob/master/images_snapshot/final%20output%20snapshot.PNG
 
 c)          Junit Coverage Snapshot
+
+https://github.com/subharaj01/productassembly_reis/blob/master/images_snapshot/Junit%20Coverage%20Snapshot.PNG
 
 #Section 4
 
