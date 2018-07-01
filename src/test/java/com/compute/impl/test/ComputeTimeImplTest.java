@@ -23,7 +23,7 @@ public class ComputeTimeImplTest {
 	public void testE2EOutputWhenMachineTwoBoltFour() throws Exception {
 		ComputeTime compute=new ComputeTimeImpl();
 		Map<String,Long> result=compute.computeTimeToAssemble(2, 4, 60);
-		Assert.assertTrue("Total Products should be 2", result.get(ComputeConstants.TOTAL_PRODUCTS).longValue()==3);
+		Assert.assertTrue("Total Products should be 2", result.get(ComputeConstants.TOTAL_PRODUCTS).longValue()==2);
 		Assert.assertTrue("Total Time Taken should be 60 seconds ", result.get(ComputeConstants.TOTAL_TIME).longValue()==60);
 	}
 	

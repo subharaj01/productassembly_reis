@@ -19,7 +19,8 @@ This project assemble machines using worker threads (Executorservice) and suppor
 a)          Sonar lint / EclEmma scan Snapshot
 https://github.com/subharaj01/productassembly_reis/blob/master/images_snapshot/sonarlint_snapshot.PNG
 
-b)          Final Output Snapshot
+b)          Final Output Snapshot (generally we don't add such class in src/test/java, but i have to add a driver program to show the final output only 
+https://github.com/subharaj01/productassembly_reis/blob/master/src/test/java/com/compute/driver/DriverProgramme.java )
 https://github.com/subharaj01/productassembly_reis/blob/master/images_snapshot/final%20output%20snapshot.PNG
 
 c)          Junit Coverage Snapshot
