@@ -14,7 +14,7 @@ import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 
-public class ComputeTimeImplBddTest {
+public class AssembleProductsBddTest {
 
 	ComputeTimeImpl computeTimeImpl=new ComputeTimeImpl();
 	Map<String,Long> result=new HashMap<>();
@@ -31,11 +31,11 @@ public class ComputeTimeImplBddTest {
 
     @Then("^the total product created will be (\\d+)$")
     public void the_total_product_created_will_be(int product) {
-    	Assert.assertTrue("Total Products should be 3", result.get(ComputeConstants.TOTAL_PRODUCTS).longValue()==product);
+    	Assert.assertTrue("Total Products should be "+product, result.get(ComputeConstants.TOTAL_PRODUCTS).longValue()==product);
     }
     
     @And("^the total time taken will be (\\d+) seconds$")
     public void the_total_time_taken_will_be_seconds(int totalTime) {
-    	Assert.assertTrue("Total Time Taken should be 60 seconds ", result.get(ComputeConstants.TOTAL_TIME).longValue()==totalTime);
+    	Assert.assertTrue("Total Time Taken should be "+totalTime+" seconds ", result.get(ComputeConstants.TOTAL_TIME).longValue()==totalTime);
     }
 }
